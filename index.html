@@ -8,6 +8,81 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    
+    <div class="wrap">
+        <div class="topBanner">
+            <img class="topBanner-img" src="https://image.idus.com/image/files/9a9a25fcde8e470a8f8ff205b22fbb81_1440.jpg"></img>
+        </div>
+    <header id="header" class="header" >
+        <div class="top-navigation full-w">
+            <div class="inner-w clf">
+                <div class="nav-btn ui-dropdown" data-disabled="hover">
+                    <input readonly type="text" name class="btn-dropdown reset" value="아이디어스 앱 설치하기">
+                </div>
+                <nav class="fr">
+                    <input type="text" id="current_user_email" class="hidden" name="current_user_email" value readonly>
+                    <a id="gnb-login-button" class="nav-btn" data-log-object="login">로그인</a>
+                    <a id="gnb-login-button" class="nav-btn" data-log-object="member_join">회원가입</a>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="search-header-bar">
+            <h1>
+                <a>
+                    <img src="https://cdn.idus.kr/www/5dd0e3a8084c1449c94cb2fadaf13736bbbe7107/resources/dist/images/logo.svg" class="logo" alt="IDUS, Unique Lifestyle Guide">
+                </a>
+            </h1>
+            <nav>
+                <a>작품</a>
+                <a>클래스</a>
+            </nav>
+            <div class="SearchInputDesktop">
+                <form class="SearchInputDesktop__form">
+                    <input id="header-search" type="text" autocomplete="off" placeholder="검색어를 입력해보세요">
+                    <label for="header-search">
+                        <button type="submit" name="search" class="SearchInputDesktop__searchButton">
+                            <i></i>
+                        </button>
+                    </label>
+                </form>
+            </div>
+            <div class="KeywordTrendingDesktop">
+                <button type="button" class="KeywordTrendingDesktop__wordSlider">
+                    <a class="KeywordTrendingDesktop__slideWord">
+                        <em>1</em>
+                        꽃다발
+                    </a>
+                </button>
+            </div>
+            <nav class="SearchHeaderDesktop__profileLink">
+                <a class="profile"> 
+                    <i></i>
+                    내정보
+                </a>
+                <a class="profile"> 
+                    <span class="profileBadge">0</span>
+                    <i></i>
+                    장바구니
+                </a>
+            </nav>
+        </div>
+        <div class="full-w gnb-scroll " data-ui="gnb-scroll" data-static="static">
+            <div class="inner-w container_gnb" data-ui="gnb">
+                <ul class="ui_gnb">
+                    <li class="ui_gnb__menu">
+                        <span>카테고리</span>
+                    </li>
+                    <li class="ui_gnb__menu" data-state="active">
+                        <span>홈</span>
+                    </li>
+                    <li class="ui_gnb__menu" data-state>
+                        <span>실시간 구매</span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>
 </body>
 </html>
