@@ -1,5 +1,6 @@
 @import url(/reset.css);
 
+
 .full-w{
     width: 100%;
 }
@@ -8,7 +9,6 @@
     width : 1056px;
     margin : 0 auto;
     position: relative;
-
 }
 
 .wrap{
@@ -25,11 +25,9 @@
 }
 
 .top-navigation {
-    /* display: flex;
-    width: 100vw; */
+    display: flex;
+    align-items: center;
     background-color: #f5f5f5;
-    color : #666;
-    vertical-align : middle;
     height: 32px;
 }
 
@@ -37,7 +35,9 @@
     display: inline-block;
     vertical-align: middle;
     padding : 0 13.5px;
-    font-size: 10px;
+    font-size: 0.8rem;
+    color : #666;
+
 }
 
 .fr {
@@ -48,6 +48,7 @@
 .SearchHeaderDesktop__bar {
     width: 1056px;
     margin : 0 auto;
+    padding : 10px 0px;
     position: relative;
     display: flex;
     align-items: center;
@@ -56,7 +57,6 @@
 .SearchHeaderDesktop__logo{
     display: inline-block;
     width: 128px;
-    padding: 0 27px;
     vertical-align: middle;
     margin-top: -8px;
 }
@@ -68,15 +68,15 @@
 }
 
 .SearchHeaderDesktop__serviceNav {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
 }
 
 .service {
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #666;
     margin-right: 30px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .service.active{
@@ -97,6 +97,8 @@
 }
 
 .SearchInputDesktop__form{
+    display: flex;
+    align-items: center;
     height: 100%;
     overflow: hidden;
     background: #fff;
@@ -106,6 +108,7 @@
 }
 
 .SearchInputDesktop__form input{
+    background-color: white;
     padding: 0;
     margin: 0;
     border: 0 none;
@@ -114,24 +117,23 @@
     font-size: 14px;
     width: 285px;
     height: 36px;
-    vertical-align: middle;
     line-height: 36px;    
 }
 
-input {
-    background-color: white;
-}
 
 .SearchInputDesktop__form label{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 42px;
     height: 100%;
-    font-weight: 700;
+}
+
+.SearchInputDesktop__searchButton { 
+    color: #ff7b30;
 }
 
 .KeywordTrendingDesktop{
-    display: inline-block;
-    vertical-align: middle;
     height: 21px;
     position: relative;
 }
@@ -189,6 +191,7 @@ input {
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 1px 0 0 #d9d9d9;
     position: absolute;
     width: 100%;
+    padding : 10px 0px;
     z-index: 99;
 }
 
@@ -206,11 +209,13 @@ input {
     text-align: center;
 }
 
-.ui_gnb_menu{
+
+.ui_gnb__menu{
     display: inline-block;
     font-size: 13px;
     color: #666;
     text-align: center;
     position: relative;
     cursor: pointer;
+    margin-right: 10px;
 }
