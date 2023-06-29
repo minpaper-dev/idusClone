@@ -1,1 +1,216 @@
 @import url(/reset.css);
+
+.full-w{
+    width: 100%;
+}
+
+.inner-w{
+    width : 1056px;
+    margin : 0 auto;
+    position: relative;
+
+}
+
+.wrap{
+    margin : 0 auto;
+}
+
+
+.topBanner {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+}
+
+.top-navigation {
+    /* display: flex;
+    width: 100vw; */
+    background-color: #f5f5f5;
+    color : #666;
+    vertical-align : middle;
+    height: 32px;
+}
+
+.nav-btn {
+    display: inline-block;
+    vertical-align: middle;
+    padding : 0 13.5px;
+    font-size: 10px;
+}
+
+.fr {
+    display: block;
+    float: right;
+}
+
+.SearchHeaderDesktop__bar {
+    width: 1056px;
+    margin : 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.SearchHeaderDesktop__logo{
+    display: inline-block;
+    width: 128px;
+    padding: 0 27px;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+
+.SearchHeaderDesktop__logo img{
+    display: block;
+    width: auto;
+    height: 29px;
+}
+
+.SearchHeaderDesktop__serviceNav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.service {
+    font-size: 18px;
+    color: #666;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.service.active{
+    font-weight: 700;
+    color: #ff7b30;
+}
+
+.SearchInputDesktop{
+    position: relative;
+    margin-right: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #ff7b30;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.SearchInputDesktop__form{
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.SearchInputDesktop__form input{
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+    text-align: left;
+    text-indent: 12px;
+    font-size: 14px;
+    width: 285px;
+    height: 36px;
+    vertical-align: middle;
+    line-height: 36px;    
+}
+
+input {
+    background-color: white;
+}
+
+.SearchInputDesktop__form label{
+    display: inline-block;
+    width: 42px;
+    height: 100%;
+    font-weight: 700;
+}
+
+.KeywordTrendingDesktop{
+    display: inline-block;
+    vertical-align: middle;
+    height: 21px;
+    position: relative;
+}
+
+.KeywordTrendingDesktop__wordSlider{
+    position: relative;
+    width: 220px;
+    height: 21px;
+    overflow: hidden;
+}
+
+.SearchHeaderDesktop__profileLink{
+    display: inline-block;
+    margin-left: 74px;
+}
+
+.SearchHeaderDesktop__profileLink .profile {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    font-size: 10px;
+    color: #666;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+
+.profileBadge{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    background: #ff7b30;
+    text-align: center;
+    line-height: 18px;
+    right: -3px;
+    top: 0;
+    
+}
+
+.gnb-scroll{
+    border-top: 1px solid #d9d9d9;
+    -webkit-box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 1px 0 0 #d9d9d9;
+    -moz-box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2),0 1px 0 0 #d9d9d9;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 1px 0 0 #d9d9d9;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+
+.container_gnb{
+    -webkit-transition: height 0.3s ease;
+    -o-transition: height 0.3s ease;
+    -moz-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+
+.ui_gnb{
+    display: flex;
+    position: relative;
+    background: #fff;
+    text-align: center;
+}
+
+.ui_gnb_menu{
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
